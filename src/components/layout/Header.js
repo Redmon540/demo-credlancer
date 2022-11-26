@@ -3,7 +3,9 @@ import NavLink from "../Common/NavLink";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
+// import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Wallet from "../Wallet";
 import "./header.css";
 
 const Header = () => {
@@ -25,7 +27,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.15"
+              fillOpacity="0.15"
             />
             <ellipse
               cx="5"
@@ -33,7 +35,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="29"
@@ -41,7 +43,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.08"
+              fillOpacity="0.08"
             />
             <ellipse
               cx="118"
@@ -49,7 +51,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="15"
@@ -57,7 +59,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <ellipse
               cx="67"
@@ -65,7 +67,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="329"
@@ -73,7 +75,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="403"
@@ -81,7 +83,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.08"
+              fillOpacity="0.08"
             />
             <ellipse
               cx="888"
@@ -89,7 +91,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.08"
+              fillOpacity="0.08"
             />
             <ellipse
               cx="474"
@@ -97,7 +99,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <ellipse
               cx="578"
@@ -105,7 +107,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="222"
@@ -113,7 +115,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="780"
@@ -121,7 +123,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="846"
@@ -129,7 +131,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <ellipse
               cx="903"
@@ -137,7 +139,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.05"
+              fillOpacity="0.05"
             />
             <ellipse
               cx="217"
@@ -145,7 +147,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="1722"
@@ -153,7 +155,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="1803"
@@ -161,7 +163,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.8"
+              fillOpacity="0.8"
             />
             <ellipse
               cx="1694"
@@ -169,7 +171,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <ellipse
               cx="1369"
@@ -177,7 +179,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="1609"
@@ -185,7 +187,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="1823"
@@ -193,7 +195,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="1813"
@@ -201,7 +203,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="1572"
@@ -209,7 +211,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="1416"
@@ -217,7 +219,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.3"
+              fillOpacity="0.3"
             />
             <ellipse
               cx="334"
@@ -225,7 +227,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.08"
+              fillOpacity="0.08"
             />
             <ellipse
               cx="528"
@@ -233,7 +235,7 @@ const Header = () => {
               rx="5"
               ry="5.9373"
               fill="white"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <path
               d="M907.654 362.516L917.5 350.824L927.346 362.516L917.5 374.208L907.654 362.516Z"
@@ -258,12 +260,12 @@ const Header = () => {
             <path
               d="M1779.65 569.54L1789.5 557.848L1799.35 569.54L1789.5 581.232L1779.65 569.54Z"
               stroke="#E1E1E1"
-              stroke-opacity="0.2"
+              strokeOpacity="0.2"
             />
             <path
               d="M1789.65 151.768L1799.5 140.076L1809.35 151.768L1799.5 163.46L1789.65 151.768Z"
               stroke="#E1E1E1"
-              stroke-opacity="0.5"
+              strokeOpacity="0.5"
             />
             <line
               y1="-0.5"
@@ -299,7 +301,7 @@ const Header = () => {
               y2="-0.5"
               transform="matrix(-0.644148 0.764901 -0.644148 -0.764901 1693 372.156)"
               stroke="#C7C7C7"
-              stroke-opacity="0.2"
+              strokeOpacity="0.2"
             />
             <line
               y1="-0.5"
@@ -350,7 +352,7 @@ const Header = () => {
                   <NavLink to="/freelancer">FREELANCER</NavLink>
                 </Col>
                 <Col>
-                  <Button className='join-btn' variant="success">JOIN</Button>
+                  <Wallet />
                 </Col>
               </Row>
             </div>
