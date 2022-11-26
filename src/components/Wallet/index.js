@@ -96,7 +96,7 @@ export default function Wallet() {
   }
 
   return (
-    <Button className='join-btn'>
+    <Button className='join-btn' onClick={handleConnectWallet} disabled={message === "Install MetaMask"}>
       {!loading ? (
         <>
           <span
